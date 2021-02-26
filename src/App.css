@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* Motion */
+*{
+  margin:0px;
+  padding:0px;
+}
+ul{
+  list-style-type: none;
+}
+
+/* Header */
+header{
+  text-align: center;
+  background-color: gray;
+}
+header>ul{
+  display: flex;
+  justify-content: center;
+}
+  .main-menu{
+    cursor: pointer;
+    width: 100px;
+    background-color: white;
+  }
+/* Main */
+/* Footer */
+
+/* Popup */
+.popup-bg{
+  display: flex;
+  position: fixed; 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  background-color: rgba( 255, 255, 255, 0.7 );
+}
+.popup{
+  position: relative;
+  vertical-align: middle;
+  background-color: red;
+  /* display: flex; */
+  /* position: relative; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
